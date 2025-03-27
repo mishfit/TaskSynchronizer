@@ -2,7 +2,7 @@
 
 namespace TaskSynchronizer.Models
 {
-    public class AvatarUrls
+    public class JiraAvatarUrls
     {
         [JsonPropertyName("48x48")]
         public string Size48 { get; set; }

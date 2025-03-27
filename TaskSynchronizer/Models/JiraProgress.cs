@@ -2,7 +2,7 @@
 
 namespace TaskSynchronizer.Models
 {
-    public class Progress
+    public class JiraProgress
     {
         [JsonPropertyName("progress")]
         public int ProgressValue { get; set; }

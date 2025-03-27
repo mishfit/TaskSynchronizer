@@ -14,7 +14,7 @@ namespace TaskSynchronizer.Models
         public string EmailAddress { get; set; }
 
         [JsonPropertyName("avatarUrls")]
-        public AvatarUrls AvatarUrls { get; set; }
+        public JiraAvatarUrls AvatarUrls { get; set; }
 
         [JsonPropertyName("displayName")]
         public string DisplayName { get; set; }

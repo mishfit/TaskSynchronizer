@@ -5,10 +5,10 @@ namespace TaskSynchronizer.Models
     public class JiraField
     {
         [JsonPropertyName("statusCategory")]
-        public StatusCategory StatusCategory { get; set; }
+        public JiraStatusCategory StatusCategory { get; set; }
 
         [JsonPropertyName("progress")]
-        public Progress Progress { get; set; }
+        public JiraProgress Progress { get; set; }
 
         [JsonPropertyName("assignee")]
         public JiraUser Assignee { get; set; }

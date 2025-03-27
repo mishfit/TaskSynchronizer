@@ -2,7 +2,7 @@
 
 namespace TaskSynchronizer.Models
 {
-    public class StatusCategory
+    public class JiraStatusCategory
     {
         [JsonPropertyName("self")]
         public required string Self { get; set; }
