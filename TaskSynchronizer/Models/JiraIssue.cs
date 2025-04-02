@@ -19,6 +19,6 @@ namespace TaskSynchronizer.Models
         public required string Key { get; set; }
 
         [JsonPropertyName("fields")]
-        public IEnumerable<JiraField> Fields { get; set; } = new List<JiraField>();
+        public required JiraField Fields { get; set; }
     }
 }
