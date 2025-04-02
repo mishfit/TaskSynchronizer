@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="BouncyCastle.OpenPGP" Version="2.0.0.1" />
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
   </ItemGroup>
 
